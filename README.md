@@ -37,7 +37,7 @@ npm install
 npm run dev
 ```
 
-Open `http://localhost:3000`. The frontend reads `NEXT_PUBLIC_API_BASE_URL` (default `http://localhost:8000`). The API health endpoint is `http://localhost:8000/health`; interactive API docs are at `/docs`.
+Open ` http://127.0.0.1:3000`. The frontend reads `NEXT_PUBLIC_API_BASE_URL` (default ` http://127.0.0.1:3000`). The API health endpoint is ` http://127.0.0.1:3000`; interactive API docs are at `/docs`.
 
 ## Configuration
 
