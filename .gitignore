@@ -1,0 +1,57 @@
+# Environment
+.env
+.env.local
+.env.*.local
+backend/.env
+
+# Dependencies
+node_modules/
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+.uv-cache/
+backend/.uv-cache/
+
+# Build outputs
+.next/
+.next-*/
+out/
+dist/
+build/
+
+# Python
+*.egg-info/
+*.egg
+dist/
+*.dist-info/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
+
+# Uploads (transient)
+backend/uploads/
+backend/temp/
+
+# Test artifacts
+.pytest_cache/
+htmlcov/
+.coverage
+coverage.xml
+
+# Next.js
+.next/
+.vercel/
